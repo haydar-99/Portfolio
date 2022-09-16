@@ -5,6 +5,7 @@ import HomeP from './components/Home/HomeP'
 import Contact from './components/Contact/Contact'
 import Projects from './components/Projects/Projects'
 import Proj from './components/Projects/Proj'
+import Technologies from './Technoligies/Technologies'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <HomeP/>
     <Projects/>
     <Proj></Proj>
+    <Technologies style={{marginTop:"200px;"}}/>
   </div>
     
   )
