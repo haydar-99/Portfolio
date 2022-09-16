@@ -1,0 +1,43 @@
+.project{
+    display:grid;
+    padding: 32px 48px  ;
+    /* margin-left: 250px; */
+    margin: 0 auto;
+    max-width: 1040px;
+    box-sizing: content-box;
+    position: relative;
+    overflow: hidden;
+    grid-template-columns: 1fr  ;
+    color:brown;
+}
+
+.cardSize{
+    width: 100%;
+    height: 85%;
+    margin:20px;
+}
+
+
+.pre{
+    display:grid;
+    margin: 0 auto;
+    max-width: 1040px;
+    position: relative;
+    grid-template-columns: 398px 398px 398px ;
+    grid-template-rows: 450px  450px ;
+    color: brown;
+    row-gap: 30px;
+    column-gap: 20px;
+}
+.pre div{
+    border:rgb(230, 22, 22) solid 3px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto ;
+    
+
+    
+}
+
+

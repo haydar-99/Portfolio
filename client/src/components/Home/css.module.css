@@ -1,0 +1,40 @@
+.section{
+    display:grid;
+    padding: 32px 48px  ;
+    margin: 0 auto;
+    max-width: 1040px;
+    box-sizing: content-box;
+    position: relative;
+    overflow: hidden;
+    grid-template-columns: 1fr ;
+    color: brown;
+}
+
+.section div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.section div h2{
+    font-weight: 800;
+    font-size: 56px;
+    line-height:56px;
+    width: max-content;
+    max-width: 100%;
+    background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    margin-bottom: 16px;
+    padding: 58px 0 16px;
+}
+
+.section div p{
+    max-width: 800px;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 300;
+  padding-bottom: 3.6rem;
+  color: brown
+}
