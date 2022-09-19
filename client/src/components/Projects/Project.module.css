@@ -41,3 +41,9 @@
 }
 
 
+.pre .card{
+    border: white solid 1px;
+   width: 30%;
+   height: 30%;
+    display: block;
+}

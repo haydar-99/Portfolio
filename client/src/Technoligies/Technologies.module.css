@@ -3,7 +3,7 @@
     margin: 0 auto;
     max-width: 1040px;
     position: relative;
-    grid-template-columns: auto auto auto  ;
+    grid-template-columns: repeat(3, auto)   ;
     color: brown;
     row-gap: 30px;
     column-gap: 70px;
@@ -32,7 +32,6 @@
 }
 .componentsGrid{
     width: 100%;
-    
    
 }
 .componentsGrid h2{

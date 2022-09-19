@@ -10,8 +10,7 @@ import Technologies from './Technoligies/Technologies'
 function App() {
   return (
     <div className={css.app} >
-    <Navbar/>
-    <HomeP/>
+    <HomeP className ="HomeP"/>
     <Projects/>
     <Proj></Proj>
     <Technologies style={{marginTop:"200px;"}}/>

@@ -1,3 +1,18 @@
+.container{
+     /* background-image: url("https://images.pexels.com/photos/1695050/pexels-photo-1695050.jpeg?auto=compress&cs=tinysrgb&w=600"  );
+     background-image: url("https://www.freepik.com/free-vector/car-with-luggage-roof-drive-road-mountains-horizon-night-vector-cartoon-illustration-landscape-with-highway-rocks-auto-with-suitcases-full-moon-stars-sky_23068303.htm#query=moon%20illustration&position=2&from_view=keyword"); 
+     */
+     background-image: url("./moon.jpg");
+     
+     object-position: center;  
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     height:850px;
+     /* border-bottom-left-radius:50% ;
+     border-bottom-right-radius:50% ; */
+     
+    }
 .section{
     display:grid;
     padding: 32px 48px  ;
@@ -7,7 +22,10 @@
     position: relative;
     overflow: hidden;
     grid-template-columns: 1fr ;
-    color: brown;
+    color: rgb(19, 7, 7);
+    opacity: 60%;
+    
+    
 }
 
 .section div{
@@ -28,6 +46,7 @@
     -webkit-text-fill-color: transparent; */
     margin-bottom: 16px;
     padding: 58px 0 16px;
+    /* animation: h2Animation 7s linear infinite; text animation later */ 
 }
 
 .section div p{
@@ -36,5 +55,84 @@
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
-  color: brown
+  color: rgb(238, 217, 217)
 }
+
+.ainmation{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    align-items: center;
+    position: absolute;
+    bottom: -100px;
+
+}
+.ainmation img{
+    width:50px ;
+    animation: flame 7s linear infinite;
+
+}
+
+
+
+
+
+
+
+
+
+@keyframes h2Animation {
+    100%{
+        background-image: linear-gradient(blue, red);
+    }
+    
+}
+
+@keyframes flame {
+    0%{
+        transform: translateY(-90vh);
+        opacity: 0;
+
+    }
+   
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+        
+    }
+    100%{
+        transform: translateY(0vh);
+        opacity: 0;
+        
+    }
+    
+}
+
+.ainmation img:nth-child(1){
+    animation-delay: 2s;
+    width:20px;
+}
+
+.ainmation img:nth-child(2){
+    animation-delay: 1s;
+
+    width:50px;
+}
+
+.ainmation img:nth-child(3){
+    animation-delay: 3s;
+    width:70px;
+}
+
+.ainmation img:nth-child(4){
+    animation-delay: 6s;
+    width:20px;
+}
+
+.ainmation img:nth-child(5){
+    animation-delay: 4s;
+    width:80px;
+}
+
