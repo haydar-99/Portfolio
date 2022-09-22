@@ -1,15 +1,115 @@
-.project{
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+
+.container{
+    width: 100%;
+    background-color: black;
+    /* background-image: url("https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?size=626&ext=jpg&ga=GA1.2.441203137.1663515662");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-position: center;
+    background-position: center; */
+    font-family: "Audiowide", sans-serif;
+    margin-top: 30px;
+    
+}
+.grid{
     display:grid;
     padding: 32px 48px  ;
     /* margin-left: 250px; */
     margin: 0 auto;
     max-width: 1040px;
     box-sizing: content-box;
-    position: relative;
+    /* position: relative; */
     overflow: hidden;
-    grid-template-columns: 1fr  ;
-    color:brown;
+    grid-template-columns: 340px 340px 340px ;
+    grid-template-rows: 450px  450px  ;
+    color: brown;
+    row-gap: 65px;
+    column-gap: 20px;
+    place-items: center;
+    
+   
 }
+
+.card{
+
+    display: block;
+    width: 300px;
+    border: 1px blue dotted;
+    background-color: aliceblue;
+    /* color:black; */
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    border-radius: 10%;
+    position: relative;
+    color: black;
+    height: 490px;
+    
+    
+}
+
+.card:hover{
+    transform: scale(1.1,1.1);
+    background-image: linear-gradient(red,blue);
+   
+
+}
+
+ .pic{
+    background-image: url("https://img.freepik.com/free-vector/team-starting-project_74855-4818.jpg?size=626&ext=jpg&ga=GA1.2.441203137.1663515662");
+    object-position: center;  
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 280px;
+    border-top-left-radius:10%;
+    border-top-right-radius:10%;
+    
+}
+
+.content{
+   
+    text-align: center;
+}
+.content a{
+    border-radius: 10px;
+    background-color:  #1CB0F6;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    text-align: center;
+  
+}
+.content a svg {
+    
+    margin-bottom:4px ;
+    margin-right: 5px;
+}
+
+.logo{
+    /* display: flex;
+    justify-content: space-between; */
+    /* padding-right:15px ;
+    padding-left: 30px; */
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+
+.svg{
+    width:  120px;
+    height: 30px;;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+
+
+
+
 
 .cardSize{
     width: 100%;
@@ -47,3 +147,4 @@
    height: 30%;
     display: block;
 }
+

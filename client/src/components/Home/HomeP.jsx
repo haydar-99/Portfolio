@@ -20,11 +20,11 @@ function HomeP() {
   </div>
 </section>
 <div className={css.ainmation}>
-  <img src="meteor.jpg" alt='jks'/>
-  <img src="meteor.jpg" alt='jks'/>
-  <img src="meteor.jpg" alt='jks'/>
-  <img src="meteor.jpg" alt='jks'/>
-  <img src="meteor.jpg" alt='jks'/>
+<img src="https://img.icons8.com/color/48/000000/comet.png"/>
+<img src="https://img.icons8.com/color/48/000000/comet.png"/>
+<img src="https://img.icons8.com/color/48/000000/comet.png"/>
+<img src="https://img.icons8.com/color/48/000000/comet.png"/>
+<img src="https://img.icons8.com/color/48/000000/comet.png"/>
 
 </div>
 </div>
