@@ -3,10 +3,20 @@
            height: 100%;
            background-size: cover;
            background-repeat: no-repeat;
-           background-color: #212529;
+           /* background-color: #212529;  */
+           background-color: black;
            font-family:"Audiowide", sans-serif;
-           
-           
+           /* background: linear-gradient(180.2deg, rgb(120, 85, 137) -6.9%, rgb(35, 9, 31) 76.7%); */
+          
+         
+         
+         
+         
+         
+           /* background: radial-gradient(circle at 90% 100%, rgb(255, 19, 120) 0%, rgb(0, 0, 0) 90.5%);
+         */
+           /* background: linear-gradient(#2b1055, #7597de);
+           */
            
            /* change it in the body style*/
             /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSndkXdgXCHp_fdRPb03x7r1jw_m3PV1qI2Rg&usqp=CAU" ); 
@@ -19,3 +29,9 @@
            
            */
 }
+
+/* .indicators {
+   background-color: aqua;
+   width: 3px;
+   height: 4px;
+} */

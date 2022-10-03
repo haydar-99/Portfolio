@@ -1,10 +1,20 @@
+
+.container{
+    /* background-image: url("https://img.freepik.com/free-vector/galaxy-background-desktop-wallpaper-space-vector_53876-136882.jpg?size=626&ext=jpg&ga=GA1.2.441203137.1663515662");
+    object-position: center;  
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover; */
+     height:770px;
+
+}
 .grid{
     display:grid;
     margin: 0 auto;
     max-width: 1040px;
     position: relative;
     grid-template-columns: repeat(3, auto)   ;
-    color: brown;
+    color: whitesmoke;
     row-gap: 30px;
     column-gap: 70px;
 }

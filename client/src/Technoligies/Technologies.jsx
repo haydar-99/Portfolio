@@ -3,7 +3,9 @@ import css from "./Technologies.module.css";
 
 function Technologies() {
   return (
-    <div id="Technologies" style={{ marginTop: "50px" }}>
+    <div className={css.container}>
+
+<div id="Technologies" style={{ marginTop: "50px" }}>
       <div className={css.grid}>
         <h1>Technologies</h1>
         <div></div>
@@ -58,6 +60,9 @@ function Technologies() {
 
       </div>
     </div>
+
+    </div>
+    
   );
 }
 
