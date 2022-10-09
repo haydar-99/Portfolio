@@ -25,7 +25,7 @@ function HomeP() {
  
   </div>
   <div className={css.ringsContainer}>
-      <div className={css.rings}></div>
+      <div className={css.rings}> </div>
       <div className={css.rings}></div>
       <div className={css.rings}></div>
 </div>

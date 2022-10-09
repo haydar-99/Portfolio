@@ -6,6 +6,12 @@
      background-position: center center;
      background-size: cover; */
      height:770px;
+     background-image: url("../assets/hand-drawing-illustration-creative-ideas-concept_53876-28456.webp");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     /* object-position: center;   */
+     
 
 }
 .grid{
@@ -17,11 +23,66 @@
     color: whitesmoke;
     row-gap: 30px;
     column-gap: 70px;
+    
+   
+
+
+}
+.grid div{
+    animation: reveal 2.5s linear forwards;
+    opacity: 0;
+    filter: blur(13px);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, .15);
+    
+    backdrop-filter: blur(5px);
+    text-align: center;
 }
 .grid :first-child{
     grid-column: 2;
     
 }
+
+.grid div:nth-child(3){
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    
+}
+.grid:nth-child(4){
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    
+}
+.grid:nth-child(5){
+    animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+    -moz-animation-delay: 3s;
+}
+.grid:nth-child(6){
+    animation-delay: 4s;
+    -webkit-animation-delay: 4s;
+    -moz-animation-delay: 4s;
+    
+}
+.grid:nth-child(7){
+    animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+    -moz-animation-delay: 5s;
+    
+}
+.grid:nth-child(7){
+    animation-delay: 6s;
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    
+}
+
+
+
+
 .grid h2{
     grid-column: 1 / span 3;
     
@@ -46,4 +107,44 @@
 }
 .componentsGrid h2{
 grid-column: 1 / span 2;
+}
+
+
+@keyframes reveal 
+{
+    100%{
+        opacity: 1;
+        filter:blur(0)
+    }
+} 
+
+
+
+.container2{
+    margin-top:300px ;
+
+}
+
+.grid2{
+    display:grid;
+    margin: 0 auto;
+    max-width: 1040px;
+    position: relative;
+    grid-template-columns: 1fr 1fr 
+}
+.foto{
+     background-image: url("../assets/hand-drawing-illustration-creative-ideas-concept_53876-28456.webp");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+    
+}
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+}
+.skills ul li{
+    
+    list-style: inside;
 }

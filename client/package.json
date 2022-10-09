@@ -38,6 +38,7 @@
   "devDependencies": {
     "bootstrap": "^5.2.1",
     "react-bootstrap": "^2.5.0",
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.4.0",
+    "react-reveal": "^1.2.2"
   }
 }
