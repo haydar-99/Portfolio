@@ -7,14 +7,19 @@ import Projects from './components/Projects/Projects'
 import Proj from './components/Projects/Proj'
 import Technologies from './Technoligies/Technologies'
 import Carousel from 'react-bootstrap/Carousel';
-
+import AboutMe from "./components/About me/AboutMe"
 
 function App() {
   return (
     <div className={css.app} >
-    <HomeP className ="HomeP"/>
+ <Navbar></Navbar>
+
+     <HomeP className ="HomeP"/>
     <Projects/>
-    <Technologies style={{marginTop:"200px;"}}/>
+
+   <Technologies style={{marginTop:"200px;"}}/>
+     <AboutMe/>
+    <Contact/> 
 
    
   </div>

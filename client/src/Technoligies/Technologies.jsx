@@ -5,6 +5,7 @@ import Bounce from 'react-reveal/Bounce';
 function Technologies() {
   return (
    <div className={css.container2}>
+   <div id="Technologies" className={css.title}><h1>skills</h1></div>
    
       <div className={css.grid2}>
 

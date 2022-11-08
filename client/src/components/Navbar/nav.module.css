@@ -1,13 +1,20 @@
+.nav{
+    display: flex;
+    justify-content: center;
+
+}
 .nav ul
 {
-    
-    list-style-type: none;
-    margin-top: 10px;
+    display: flex;
+    /* justify-content: space-around; */
+    border-bottom: 1px purple solid;
 }
 
 .nav ul li{
-    display:inline-block;
-    margin-left: 90px;
+    /* display:inline-flex;*/
+    list-style-type: none;
+
+    margin-left: 90px; 
 
 }
 .nav ul li a{
@@ -16,12 +23,110 @@
     padding-top: 10px;
     text-transform: uppercase;
     font-size: 30px;
+    display: block;
    
 }
 .nav ul li a:hover{
     
     color: rgba(0, 139, 169, 1);
-    font-size: 50px;
-    transition: 1000ms;
-    transform: rotate(180deg);
+    /* font-size: 50px; */
+    transition: 100ms;
+    /* transform: rotate(180deg); */
+}
+
+.nav .navbar-toggler{
+    background-color: aliceblue;
+}
+
+.toggle_button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+
+}
+
+.bar{
+    height: 3px;
+    width: 100%;
+    background-color: rgb(250, 229, 110);
+    border-radius: 10px;
+
+}
+
+
+
+.display_nav{
+   
+        display: block;
+        position: relative;
+        right: 120px;
+}
+
+.hide.nav{
+    display: none;
+}
+@media (max-width:1007px){
+    .toggle_button{
+        display: flex;
+    }
+
+    .expanded  {
+        display: block;
+        width: 100%;
+       
+      }
+      .expanded ul{
+        position: relative;
+        top: 60px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        height: calc(100vh - 66);
+        background-color: white;
+        border-top: 1px solid black;
+        width: 100%;
+        overflow: visible;
+
+      }
+    .nav ul{
+        display: none;
+    
+        }
+
+        .expanded ul li{
+            text-align: center;
+            margin: 0;
+            list-style-type: none;
+            width: 100%;
+        }
+    
+        .expanded ul li a{
+            width: 100%;
+            padding: 1.5rem 0;
+            text-decoration: none;
+            color: rgb(250, 229, 110);
+            text-transform: uppercase;
+            font-size: 20px;
+            display: block;
+        }
+    
+        .expanded ul li a:hover{
+            color: rgba(0, 139, 169, 1);
+           
+        }
+    
+
+
+}
+
+.span{
+    width: 100%;
+    height: 5px;
+    background-color: aliceblue;
+    position: absoulte;
 }

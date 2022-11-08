@@ -3,31 +3,20 @@ import css from "./Contact.module.css"
 
 function Contact() {
   return (
-    <div className={`${css.section}`}>
-    <div >
-    <p><i ></i> Chicago, US</p>
-    <p><i ></i> Phone: +00 151515</p>
-    <p><i > </i> Email: mail@mail.com</p>
-  </div><br/>
-<p>Let's get in touch. Send me a message:</p>
-    <form action="/action_page.php" target="_blank">
-    <p><input className="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"/></p>
-    <p><input className="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"/></p>
-    <p><input className="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"/></p>
-    <p><input className="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"/></p>
-    <p>
-      <button className="w3-button w3-light-grey w3-padding-large" type="submit">
-        <i className="fa fa-paper-plane"></i> SEND MESSAGE
-      </button>
-    </p>
-  </form>
-  <div/>
-    
-  
-
-  
+ <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+<h2 id="Contact" class="w3-text-light-grey">Contact Me</h2>
+<div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    </div>
 </div>
+
   )
+
 }
 
 export default Contact
+
+
+

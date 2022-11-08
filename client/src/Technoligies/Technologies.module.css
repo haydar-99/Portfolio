@@ -10,9 +10,20 @@
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
+     
      /* object-position: center;   */
      
 
+}
+.title{
+
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: white 1px solid;
+    margin-bottom: 80px;
+    width: 70%;
+    text-align: center;
 }
 .grid{
     display:grid;
@@ -122,6 +133,7 @@ grid-column: 1 / span 2;
 
 .container2{
     margin-top:300px ;
+    position: relative;
 
 }
 
@@ -147,4 +159,49 @@ grid-column: 1 / span 2;
 .skills ul li{
     
     list-style: inside;
+}
+
+@media (max-width:1007px){
+    .skills{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        row-gap: 20px;
+       
+        
+
+    }
+   
+    .grid2{
+        display:grid;
+        margin: 0 auto;
+        max-width: 1040px;
+        position: relative;
+        grid-template-columns:   1fr ; 
+    }
+
+    .foto{
+        width: 320px;
+        height:520px;
+        background-image: url("../assets/hand-drawing-illustration-creative-ideas-concept_53876-28456.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        opacity: 0.1;
+        display: none;
+       
+    }
+
+    .title {
+        position: static;
+        left: 35%;
+        border-bottom: 1px solid blue;
+        text-align: center;
+        margin-bottom: 34px;
+        
+     }
+     .title h1{
+        text-transform: uppercase;
+     }
+
 }

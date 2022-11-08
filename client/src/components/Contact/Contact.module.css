@@ -1,10 +1,33 @@
-.section{
-    display:grid;
-    padding: 32px 48px  ;
+.title{
+    position: sticky;
+    top: 70%;
+}
+
+.icons{
+   
     margin: 0 auto;
     max-width: 1040px;
-    box-sizing: content-box;
-    position: relative;
-    overflow: hidden;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.icons div{
+    display: block;
+    
+}
+.icons div:hover{
+    border: dotted grey 1px;
+}
+.icons img{
+    margin-left: 10px;
+    width: 100px;
+    margin-bottom: 10px ;
+}
+
+#email{
+    margin-left: 51px;
+}
+
+#linkdin{
+    margin-left: 20px;
 }

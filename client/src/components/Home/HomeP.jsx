@@ -7,9 +7,8 @@ import video from "../Home/smoke.mp4"
 function HomeP() {
   return (
  <div className={css.container}>
- <Navbar></Navbar>
   <div className={css.text}>
-  <video src={video} muted autoPlay></video>
+  <video src={video} muted autoPlay = "1"></video>
   
   <span>
     "Hello

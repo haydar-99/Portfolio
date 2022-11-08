@@ -5,11 +5,13 @@
     
      /* background-image: url("./moon.jpg");
      */
-     object-position: center;  
+     /* object-position: center;  
      background-repeat: no-repeat;
      background-position: center center;
-     background-size: cover;
+     background-size: cover; */
      height:770px;
+     
+     
      /* border-bottom-left-radius:  30%;
      border-bottom-right-radius:  30%; */
      /* border-bottom-left-radius:50% ;
@@ -185,7 +187,7 @@
     -webkit-transition: 1s;
     -moz-transition: 1s;
     
-    animation: reveal 2.5s linear forwards;
+    animation: reveal 1.5s linear forwards;
 
     opacity: 0;
     filter: blur(13px);
@@ -213,6 +215,8 @@
     color: rgb(238, 217, 217);
     width: 60%;
     animation-delay: 7s;
+    -webkit-animation-delay: 7s;
+    -moz-animation-delay: 7s;
     margin-left: 100px;
 
     
@@ -252,6 +256,7 @@ video{
     transform: translateY(-40%);
    /* width: 80%; */
    overflow: hidden;
+   
    
 } 
 /* .text span:nth-child(0){
@@ -380,4 +385,68 @@ video{
 
 
 
+}
+
+
+
+@media (max-width:1007px) {
+  
+    .text{
+        position: relative;
+        width: 100%;
+        left: 0;
+        overflow: visible;
+        width: 100%;
+        /* width: 80%;
+        height: 500px;
+        position: absolute;
+        top:30%;
+        left: 20%;
+        transform: (-50%,-50%);
+        display: block;
+        overflow: hidden; */
+        padding-right: 30px;
+    }
+    .text span{
+        font-weight: 300px;
+        font-size: 47px;
+        margin-top: 0px;
+        margin-left: 10px;
+        animation-delay: 1s;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        
+        
+    }
+    .p{
+        /* font-weight: 800px;
+        font-size: 30px;
+        animation: css_reveal__cHuGZ 2.5s linear forwards;
+        opacity: 0;
+        filter: blur(13px);
+        margin-right: 20px;
+        color: rgb(238, 217, 217);
+        width: 100%;
+        animation-delay: 7s; */
+        font-size: 15px;
+        padding-right: 20px;
+        animation-delay: 2s;
+        -webkit-animation-delay: 2s;
+        -moz-animation-delay: 2s;
+        margin-left: 30px;
+        width: 100%;
+    }
+  
+    
+    .ringsContainer{
+        display: none;
+    }
+
+    .container{
+        height: 300px;
+        overflow: hidden;
+    }
+    video{
+        display: none;
+    }
 }
