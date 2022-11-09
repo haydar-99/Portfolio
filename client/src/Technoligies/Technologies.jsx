@@ -29,7 +29,7 @@ function Technologies() {
             <ul>
             <li>Node.js</li>
             <li>Express.js</li>
-            <li>MongoDB with Mongoose</li>
+            <li>MongoDB </li>
             <li>Javascript</li>
             </ul>
             

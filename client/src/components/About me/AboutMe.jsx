@@ -12,14 +12,13 @@ function AboutMe() {
         
         My high school program is called Natural Science Program
         with orientation and focus on math and natrual science.
-        <br/>During the high school I was a vollyball player and represented my city in the swedish national competion. 
-        This made me a good team-player as well as solo player.
+        <br/>
        <br/>
        <br/> A cliché that every one says "I am a fast learner", Which I will say too, however luckliy I have a proof when it comes to 
         software development. 
         <br/>In My last internship I developed a backend micro-service , I integrated a Qgis modell and Implemented it headless
         as a micro-service 
-        wich became my thisis. Just let me know if you want a copy of it in english &#128521;        
+        which became my thisis. Just let me know if you want a copy of it in english &#128521;        
 
     </p>
  </div>
