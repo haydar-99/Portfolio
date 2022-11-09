@@ -1,7 +1,6 @@
 import React from 'react'
 import css from "./css.module.css"
-import Navbar from "../Navbar/Navbar"
-import {BiMeteor} from "react-icons/bi"
+
 import video from "../Home/smoke.mp4"
 
 function HomeP() {

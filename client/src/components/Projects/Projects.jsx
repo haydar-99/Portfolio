@@ -1,11 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import css from "./Project.module.css";
-import cs from "../../assets/cartImage.jpg"
-import Offcanvas from 'react-bootstrap/Offcanvas';
 import { useState } from "react";
 import UserAuth from "../../assets/UserAuth.png"
 import ludo from "../../assets/Ludo.png"
-import Zoom from 'react-reveal/Zoom';
 import Bounce from 'react-reveal/Bounce';
 
 import React from "react";
