@@ -1,5 +1,5 @@
 {
-  "homepage": "https://",
+  "homepage": "https://haydar-99.github.io/Portfolio",
   "name": "client",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,6 +40,7 @@
   },
   "devDependencies": {
     "bootstrap": "^5.2.1",
+    "gh-pages": "^4.0.0",
     "react-bootstrap": "^2.5.0",
     "react-icons": "^4.4.0",
     "react-reveal": "^1.2.2"
