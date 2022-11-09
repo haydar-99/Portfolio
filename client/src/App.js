@@ -19,7 +19,7 @@ function App() {
      <AboutMe/>
     <Contact/> 
     <div className={css.bottom}> 
-    <p> here are some assets-resources I used to develop my portofolio, <br></br>
+    <p> Here are some assets-resources I used to develop my portofolio, <br></br>
      <a href='https://img.freepik.com/free-vector/hand-drawing-illustration-creative-ideas-concept_53876-28456.jpg' target="_blank">freepik</a>
       <br></br> <a href='https://icons8.com/' target="_blank">www.icon8.com</a>
     </p>
