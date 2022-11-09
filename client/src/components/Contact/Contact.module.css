@@ -31,3 +31,21 @@
 #linkdin{
     margin-left: 20px;
 }
+
+.container p{
+    color: #f1f1f1;
+}
+
+.container  p img {
+    margin-right: 30px;
+    width: 50px;
+}
+
+.container  p:hover{
+   color: rgba(0, 139, 169, 1);
+   border-bottom: 1px rgb(250, 229, 110) solid;
+}
+.container p a{
+    text-decoration: none;
+}
+

@@ -8,7 +8,7 @@
            font-family:"Audiowide", sans-serif;
            /* background: linear-gradient(180.2deg, rgb(120, 85, 137) -6.9%, rgb(35, 9, 31) 76.7%); */
           
-           color: rgb(146, 142, 142);
+               color: #f1f1f1;
          
          
          
@@ -38,4 +38,12 @@
 
 .app h1 ,h2, h3, h4, h5, h6{
   font-family:"Audiowide", sans-serif;
+}
+.bottom{
+  border-top:1px white solid ;
+  text-align: center;
+
+}
+.bottom p{
+  margin-top: 20px;
 }

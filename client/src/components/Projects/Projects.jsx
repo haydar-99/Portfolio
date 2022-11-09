@@ -6,6 +6,7 @@ import { useState } from "react";
 import UserAuth from "../../assets/UserAuth.png"
 import ludo from "../../assets/Ludo.png"
 import Zoom from 'react-reveal/Zoom';
+import Bounce from 'react-reveal/Bounce';
 
 import React from "react";
 
@@ -24,11 +25,11 @@ function Projects() {
   return (
    <div className={css.container}>
    <div id="Projects" className={css.title}><h1>Projects</h1></div>
-   <Zoom on>
 
       <div className={css.grid}>
         
         
+      <Bounce left >
           <div className={css.card}>
            <div className={css.pic} style={{backgroundImage:`url(${ProjList.e_commerce})`}} ></div>
            <div className={css.card_title}>
@@ -44,12 +45,14 @@ function Projects() {
             <a href="https://github.com/haydar-99/E-commerce"  target="_blank" className="btn btn-primary">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
             <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-            </svg>display</a>
+            </svg>project repo</a>
             </div>
           </div>
+          </Bounce>
+
           
-          
-          {/* the first project */}
+          <Bounce right >
+              {/* the first project */}
           <div className={css.card}>
            <div className={css.pic} style={{backgroundImage:`url(${ProjList.UserAuth})`}} ></div>
            <div className={css.card_title}>
@@ -62,13 +65,17 @@ function Projects() {
               <p> A backend API-project to authenticate users with Node.js, Express.js and MongoDB as irrational database. The authentication-technique is Passport js middleware for Node.js with a local strategy. The project is going to be more developed to add authentication with Facebook, Twitter and other option than only Local strategy.   </p>
             </div>
             
-            <a href="https://github.com/haydar-99/E-commerce"  target="_blank" className="btn btn-primary">
+            <a href="https://github.com/haydar-99/User-Authentication-API"  target="_blank" className="btn btn-primary">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
             <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-            </svg>display</a>
+            </svg>project repo</a>
             </div>
           </div>
+          </Bounce>
+        
           
+
+          <Bounce left>
           {/* the first project */}
           <div className={css.card}>
            <div className={css.pic}  style={{backgroundImage:`url(${ProjList.social_app})`}}></div>
@@ -82,13 +89,15 @@ function Projects() {
               <p>A MERN project build in  react, HTML&CSS on the frontend and Node.js , Express.js and MongoDB on the backend</p>
             </div>
             
-            <a href="https://github.com/haydar-99/E-commerce"  target="_blank" className="btn btn-primary">
+            <a href="https://github.com/haydar-99/Mern-proj-Memories"  target="_blank" className="btn btn-primary">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
             <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-            </svg>display</a>
+            </svg>project repo</a>
             </div>
           </div>
-          
+          </Bounce>
+
+          <Bounce right>
           {/* the first project */}
           <div className={css.card}>
            <div className={css.pic} style={{backgroundImage:`url(${ProjList.ludo})`}}></div>
@@ -102,15 +111,15 @@ function Projects() {
               <p>A group project was developed during my study-time. The game is a WPF application built with C#.  </p>
             </div>
             
-            <a href="https://github.com/haydar-99/E-commerce"  target="_blank" className="btn btn-primary">
+            <a href="https://github.com/haydar-99/ludo-new-world"  target="_blank" className="btn btn-primary">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
             <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-            </svg>display</a>
+            </svg>project repo</a>
             </div>
           </div>
-          
+          </Bounce>
          
-         
+         <Bounce left>
           {/* the first project */}
           <div className={css.card}>
            <div className={css.pic}></div>
@@ -124,12 +133,13 @@ function Projects() {
               <p>A console appliction, gym booking system built with C# in .NET Framework</p>
             </div>
             
-            <a href="https://github.com/haydar-99/E-commerce"  target="_blank" className="btn btn-primary">
+            <a href="https://github.com/haydar-99/GymBookingSystem"  target="_blank" className="btn btn-primary">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
             <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-            </svg>display</a>
+            </svg>project repo</a>
             </div>
           </div>
+          </Bounce>
           
         
         
@@ -139,7 +149,6 @@ function Projects() {
 
           
       </div>
-   </Zoom>
 
    </div>
   );
@@ -267,7 +276,7 @@ function Projects() {
             <a href="https://github.com/haydar-99/E-commerce"  target="_blank" className="btn btn-primary">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
             <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-            </svg>display</a>
+            </svg>project repo</a>
             
             </div>
           </div>
@@ -295,7 +304,7 @@ function Projects() {
                
             </div>
 
-            <a href="https://github.com/haydar-99/E-commerce"  target="_blank" className="btn btn-primary">display</a>
+            <a href="https://github.com/haydar-99/E-commerce"  target="_blank" className="btn btn-primary">project repo</a>
             
             </div>
           </div>
@@ -323,7 +332,7 @@ function Projects() {
                
             </div>
 
-            <a href="https://github.com/haydar-99/E-commerce"  target="_blank" className="btn btn-primary">display</a>
+            <a href="https://github.com/haydar-99/E-commerce"  target="_blank" className="btn btn-primary">project repo</a>
             
             </div>
           </div>
@@ -345,7 +354,7 @@ function Projects() {
 
                
             </div>
-            <a href="https://github.com/haydar-99/E-commerce"  target="_blank" className="btn btn-primary">display</a>
+            <a href="https://github.com/haydar-99/E-commerce"  target="_blank" className="btn btn-primary">project repo</a>
             
             </div>
           </div>
@@ -363,7 +372,7 @@ function Projects() {
                 </div>
             </div>
             
-            <a href="https://github.com/haydar-99/E-commerce"  target="_blank" className="btn btn-primary">display</a>
+            <a href="https://github.com/haydar-99/E-commerce"  target="_blank" className="btn btn-primary">project repo</a>
             
             </div>
           </div>

@@ -23,11 +23,11 @@ function HomeP() {
     </div>
  
   </div>
-  <div className={css.ringsContainer}>
+  {/* <div className={css.ringsContainer}>
       <div className={css.rings}> </div>
       <div className={css.rings}></div>
       <div className={css.rings}></div>
-</div>
+</div> */}
 </div>
   )
 }

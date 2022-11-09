@@ -163,9 +163,12 @@ grid-column: 1 / span 2;
 
 @media (max-width:1007px){
     .skills{
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        row-gap: 20px;
+        display: block;
+        margin-left: 100px;
+
+        /* grid-template-columns: 1fr 1fr ; */
+        /* column-gap: 20px;
+        row-gap: 20px; */
        
         
 
@@ -193,11 +196,14 @@ grid-column: 1 / span 2;
     }
 
     .title {
-        position: static;
-        left: 35%;
+       display: block;
         border-bottom: 1px solid blue;
         text-align: center;
         margin-bottom: 34px;
+
+
+
+        
         
      }
      .title h1{
