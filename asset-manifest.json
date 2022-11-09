@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.0680f4a7.css",
-    "main.js": "/Portfolio/static/js/main.a816f5e4.js",
+    "main.js": "/Portfolio/static/js/main.e281c87b.js",
     "static/media/Ludo.png": "/Portfolio/static/media/Ludo.586dbba9ff66888e42d4.png",
     "static/media/smoke.mp4": "/Portfolio/static/media/smoke.19ccac52415a702bff98.mp4",
     "static/media/UserAuth.png": "/Portfolio/static/media/UserAuth.3f8ea47a80a2a4160e81.png",
     "static/media/hand-drawing-illustration-creative-ideas-concept_53876-28456.webp": "/Portfolio/static/media/hand-drawing-illustration-creative-ideas-concept_53876-28456.e9cc5849ba367e01cee7.webp",
     "index.html": "/Portfolio/index.html",
     "main.0680f4a7.css.map": "/Portfolio/static/css/main.0680f4a7.css.map",
-    "main.a816f5e4.js.map": "/Portfolio/static/js/main.a816f5e4.js.map"
+    "main.e281c87b.js.map": "/Portfolio/static/js/main.e281c87b.js.map"
   },
   "entrypoints": [
     "static/css/main.0680f4a7.css",
-    "static/js/main.a816f5e4.js"
+    "static/js/main.e281c87b.js"
   ]
 }
