@@ -17,7 +17,7 @@ function HomeP() {
     World"
   </span>
   <div className={css.p}> <p>
-    I am Haydar and I can help you with many areas that specailly in web development, C# and .NET Frameworks and some of python
+    I am Haydar and I can help you with many areas that is related to web development, C# and .NET Frameworks and some of python
     and data science.
     </p>
     </div>
