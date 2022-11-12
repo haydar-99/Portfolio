@@ -8,10 +8,11 @@ function AboutMe() {
  <div id='About' className={css.title}> <h1>About Me</h1></div>
  <div className={css.text}>
     <p>
-        I grew up and studied my hgih school(Arbitur)  and software developement in Sweden. 
+        I grew up and studied my hgih school(Arbitur)  and software developement in Sweden.
         
         My high school program is called Natural Science Program
-        with orientation and focus on math and natrual science.
+        with orientation and focus on math and natrual science.<br></br>
+        I live currently in Germany, in Mecklenburg-Vorpommern.
         <br/>
        <br/>
        <br/> A cliché that every one says "I am a fast learner", Which I will say too, however luckliy I have a proof when it comes to 
