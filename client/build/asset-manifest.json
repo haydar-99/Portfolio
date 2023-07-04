@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/build/static/css/main.1a587586.css",
-    "main.js": "/Portfolio/build/static/js/main.88b42264.js",
-    "static/media/Ludo.png": "/Portfolio/build/static/media/Ludo.586dbba9ff66888e42d4.png",
-    "static/media/smoke.mp4": "/Portfolio/build/static/media/smoke.19ccac52415a702bff98.mp4",
-    "static/media/UserAuth.png": "/Portfolio/build/static/media/UserAuth.3f8ea47a80a2a4160e81.png",
-    "static/media/hand-drawing-illustration-creative-ideas-concept_53876-28456.webp": "/Portfolio/build/static/media/hand-drawing-illustration-creative-ideas-concept_53876-28456.e9cc5849ba367e01cee7.webp",
-    "index.html": "/Portfolio/build/index.html",
-    "main.1a587586.css.map": "/Portfolio/build/static/css/main.1a587586.css.map",
-    "main.88b42264.js.map": "/Portfolio/build/static/js/main.88b42264.js.map"
+    "main.css": "/Portfolio/client/build/static/css/main.1b72c195.css",
+    "main.js": "/Portfolio/client/build/static/js/main.84d955d8.js",
+    "static/media/Ludo.png": "/Portfolio/client/build/static/media/Ludo.586dbba9ff66888e42d4.png",
+    "static/media/smoke.mp4": "/Portfolio/client/build/static/media/smoke.19ccac52415a702bff98.mp4",
+    "static/media/UserAuth.png": "/Portfolio/client/build/static/media/UserAuth.3f8ea47a80a2a4160e81.png",
+    "static/media/hand-drawing-illustration-creative-ideas-concept_53876-28456.webp": "/Portfolio/client/build/static/media/hand-drawing-illustration-creative-ideas-concept_53876-28456.e9cc5849ba367e01cee7.webp",
+    "index.html": "/Portfolio/client/build/index.html",
+    "main.1b72c195.css.map": "/Portfolio/client/build/static/css/main.1b72c195.css.map",
+    "main.84d955d8.js.map": "/Portfolio/client/build/static/js/main.84d955d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a587586.css",
-    "static/js/main.88b42264.js"
+    "static/css/main.1b72c195.css",
+    "static/js/main.84d955d8.js"
   ]
 }
