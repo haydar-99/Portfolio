@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.c0697d8f.css",
+    "main.js": "/Portfolio/static/js/main.399299e4.js",
+    "static/media/Ludo.png": "/Portfolio/static/media/Ludo.586dbba9ff66888e42d4.png",
+    "static/media/smoke.mp4": "/Portfolio/static/media/smoke.19ccac52415a702bff98.mp4",
+    "static/media/UserAuth.png": "/Portfolio/static/media/UserAuth.3f8ea47a80a2a4160e81.png",
+    "static/media/hand-drawing-illustration-creative-ideas-concept_53876-28456.webp": "/Portfolio/static/media/hand-drawing-illustration-creative-ideas-concept_53876-28456.e9cc5849ba367e01cee7.webp",
+    "index.html": "/Portfolio/index.html",
+    "main.c0697d8f.css.map": "/Portfolio/static/css/main.c0697d8f.css.map",
+    "main.399299e4.js.map": "/Portfolio/static/js/main.399299e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0697d8f.css",
+    "static/js/main.399299e4.js"
+  ]
+}
