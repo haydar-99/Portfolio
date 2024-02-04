@@ -12,7 +12,7 @@ function AboutMe() {
         
         My high school program is called Natural Science Program
         with orientation and focus on math and natrual science.<br></br>
-        I live currently in Germany, in Mecklenburg-Vorpommern.
+        I live currently in Germany.
         <br/>
        <br/>
        <br/> A cliché that every one says "I am a fast learner", Which I will say too, however luckliy I have a proof when it comes to 
